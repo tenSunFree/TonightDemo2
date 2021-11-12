@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4E5CB7B273F02C400120157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CB7A273F02C400120157 /* AppDelegate.swift */; };
-		A4E5CB7D273F02C400120157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CB7C273F02C400120157 /* SceneDelegate.swift */; };
-		A4E5CB7F273F02C400120157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CB7E273F02C400120157 /* ViewController.swift */; };
 		A4E5CB82273F02C400120157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E5CB80273F02C400120157 /* Main.storyboard */; };
 		A4E5CB84273F02C600120157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E5CB83273F02C600120157 /* Assets.xcassets */; };
 		A4E5CB87273F02C600120157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E5CB85273F02C600120157 /* LaunchScreen.storyboard */; };
 		A4E5CB92273F02C600120157 /* TonightDemo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CB91273F02C600120157 /* TonightDemo2Tests.swift */; };
 		A4E5CB9C273F02C600120157 /* TonightDemo2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CB9B273F02C600120157 /* TonightDemo2UITests.swift */; };
 		A4E5CB9E273F02C600120157 /* TonightDemo2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CB9D273F02C600120157 /* TonightDemo2UITestsLaunchTests.swift */; };
+		A4E5CBAB273F04C400120157 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CBAA273F04C400120157 /* HomeViewController.swift */; };
+		A4E5CBAD273F04D400120157 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CBAC273F04D400120157 /* HomeViewCell.swift */; };
+		A4E5CBB0273F051D00120157 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A4E5CBAF273F051D00120157 /* Alamofire */; };
+		A4E5CBB6273F063300120157 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CBB5273F063300120157 /* HomeModel.swift */; };
+		A4E5CBB8273F064600120157 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CBB7273F064600120157 /* NetworkManager.swift */; };
+		A4E5CBC6273F092600120157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CBC4273F081100120157 /* AppDelegate.swift */; };
+		A4E5CBC7273F092800120157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5CBC5273F081500120157 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +41,6 @@
 
 /* Begin PBXFileReference section */
 		A4E5CB77273F02C400120157 /* TonightDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TonightDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4E5CB7A273F02C400120157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4E5CB7C273F02C400120157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4E5CB7E273F02C400120157 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4E5CB81273F02C400120157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4E5CB83273F02C600120157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4E5CB86273F02C600120157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,12 @@
 		A4E5CB97273F02C600120157 /* TonightDemo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TonightDemo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E5CB9B273F02C600120157 /* TonightDemo2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonightDemo2UITests.swift; sourceTree = "<group>"; };
 		A4E5CB9D273F02C600120157 /* TonightDemo2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonightDemo2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4E5CBAA273F04C400120157 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4E5CBAC273F04D400120157 /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		A4E5CBB5273F063300120157 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		A4E5CBB7273F064600120157 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A4E5CBC4273F081100120157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4E5CBC5273F081500120157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E5CBB0273F051D00120157 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +107,8 @@
 		A4E5CB79273F02C400120157 /* TonightDemo2 */ = {
 			isa = PBXGroup;
 			children = (
-				A4E5CB7A273F02C400120157 /* AppDelegate.swift */,
-				A4E5CB7C273F02C400120157 /* SceneDelegate.swift */,
-				A4E5CB7E273F02C400120157 /* ViewController.swift */,
+				A4E5CBBE273F06DF00120157 /* common */,
+				A4E5CBBD273F068600120157 /* home */,
 				A4E5CB80273F02C400120157 /* Main.storyboard */,
 				A4E5CB83273F02C600120157 /* Assets.xcassets */,
 				A4E5CB85273F02C600120157 /* LaunchScreen.storyboard */,
@@ -127,6 +134,42 @@
 			path = TonightDemo2UITests;
 			sourceTree = "<group>";
 		};
+		A4E5CBBD273F068600120157 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5CBB5273F063300120157 /* HomeModel.swift */,
+				A4E5CBAC273F04D400120157 /* HomeViewCell.swift */,
+				A4E5CBAA273F04C400120157 /* HomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		A4E5CBBE273F06DF00120157 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5CBC8273F094600120157 /* remote */,
+				A4E5CBBF273F071400120157 /* delegate */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		A4E5CBBF273F071400120157 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5CBC5273F081500120157 /* SceneDelegate.swift */,
+				A4E5CBC4273F081100120157 /* AppDelegate.swift */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		A4E5CBC8273F094600120157 /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5CBB7273F064600120157 /* NetworkManager.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +186,9 @@
 			dependencies = (
 			);
 			name = TonightDemo2;
+			packageProductDependencies = (
+				A4E5CBAF273F051D00120157 /* Alamofire */,
+			);
 			productName = TonightDemo2;
 			productReference = A4E5CB77273F02C400120157 /* TonightDemo2.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +261,9 @@
 				Base,
 			);
 			mainGroup = A4E5CB6E273F02C400120157;
+			packageReferences = (
+				A4E5CBAE273F051D00120157 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = A4E5CB78273F02C400120157 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E5CB7F273F02C400120157 /* ViewController.swift in Sources */,
-				A4E5CB7B273F02C400120157 /* AppDelegate.swift in Sources */,
-				A4E5CB7D273F02C400120157 /* SceneDelegate.swift in Sources */,
+				A4E5CBB8273F064600120157 /* NetworkManager.swift in Sources */,
+				A4E5CBAD273F04D400120157 /* HomeViewCell.swift in Sources */,
+				A4E5CBAB273F04C400120157 /* HomeViewController.swift in Sources */,
+				A4E5CBC6273F092600120157 /* AppDelegate.swift in Sources */,
+				A4E5CBB6273F063300120157 /* HomeModel.swift in Sources */,
+				A4E5CBC7273F092800120157 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +491,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4PBSBN7MGW;
+				DEVELOPMENT_TEAM = 8WWB85JM2N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TonightDemo2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -467,7 +519,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4PBSBN7MGW;
+				DEVELOPMENT_TEAM = 8WWB85JM2N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TonightDemo2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -624,6 +676,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4E5CBAE273F051D00120157 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4E5CBAF273F051D00120157 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4E5CBAE273F051D00120157 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A4E5CB6F273F02C400120157 /* Project object */;
 }
